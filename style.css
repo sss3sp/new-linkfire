@@ -1,0 +1,145 @@
+*{
+	margin:0px;
+	padding: 0px;
+
+}
+/*====================General CSS====================*/
+.lg-font{
+	font-size: 45px;
+	font-weight: bolder; 
+}
+.md-font{
+	font-size: 20px;
+	font-weight: bolder;
+}
+.container{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.logo{
+	color:white;
+	font-size: 30px;
+	font-style: bold;
+	margin-left: 10px;
+}
+.grey{
+	color: #999999;
+}
+/*===================Logo and Menu Part===========*/
+
+
+.navbar-default{
+	background: transparent;
+	color: white;
+	border: hidden;
+	margin-top: 27px;
+}
+.navbar-default .navbar-nav > li > a{
+        color:white;
+	line-height: 11px;
+}
+.lock{
+	margin-right: 5px;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+    color: white;
+    background: transparent;
+}
+
+.navbar-default .navbar-nav > li a:hover,
+.navbar-default .navbar-nav > li a:focus{
+    color: white;
+    background-color:transparent;
+    border-bottom: 2px solid #e82b22;
+}
+.header-text{
+	color: white;
+	margin-top: 130px;
+}
+/*==========header button=======*/
+.fa-caret-right{
+	text-decoration: none;
+	color:white;
+}
+.arrow{
+	margin-left: 40px;
+	float:right;
+}
+.btn-danger{
+	padding: 14px 28px 10px 68px;
+	background: #e82b22;
+	
+}
+.button{
+	margin-bottom: 180px;
+	margin-top: 50px;
+}
+
+.button-arrow{
+	background: #e82b11;
+}
+/*===============Support header==================*/
+.support{
+	background-color: #f0f1f3;
+	padding-top: 17px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #999999;
+	font-weight: bold;
+	border-radius: 10px 10px 0px 0px;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;
+	width: 230px;
+	
+}
+.center{
+	text-align: center;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+/*====================Logo Banner=====================*/
+.logo-banner{
+	background: #f0f1f3;
+}
+.company-logo{
+	width: 134px;
+	height: 86px;
+	margin-left: 30px;
+}
+.jumbotron{
+	padding-top:37px;
+	padding-bottom:15px;
+}
+/*================Deep Link===================*/
+.twitter-img{
+	height: 600px;
+	width: 290px;
+	margin-left: 30px;
+}
+.vcenter {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+.circ {
+    background-color: #3cbda3;
+    border-radius: 25px;
+    display: table-cell;
+    float: left;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+    margin-top: 12px;
+}
+.icon-music{
+	color:white;}
+.mar{
+	margin-top: 30px;
+	}

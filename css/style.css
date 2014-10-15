@@ -1,0 +1,246 @@
+*{
+	margin:0px;
+	padding: 0px;
+
+}
+/*====================General CSS====================*/
+.lg-font{
+	font-size: 45px;
+	font-weight: bolder; 
+}
+.md-font{
+	font-size: 16px;
+	font-weight: bolder;
+}
+.container{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.logo{
+	color:white;
+	font-size: 30px;
+	font-style: bold;
+	margin-left: 10px;
+}
+.vry-lg-font{
+	font-size: 100px;
+	font-weight: bolder;
+}
+.grey{
+	color: #999999;
+}
+.white{
+	color:white;
+}
+.mid-font{
+	font-size: 25px;
+	font-weight: 100;
+}
+.headline-font{
+	font-size: 30px;
+	font-weight: bolder;
+}
+.italic{
+	font-style: italic;
+}
+/*===================Logo and Menu Part===========*/
+
+
+.navbar-default{
+	background: transparent;
+	color: white;
+	border: hidden;
+	margin-top: 27px;
+}
+.navbar-default .navbar-nav > li > a{
+        color:white;
+	line-height: 11px;
+}
+.lock{
+	margin-right: 5px;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+    color: white;
+    background: transparent;
+}
+
+.navbar-default .navbar-nav > li a:hover,
+.navbar-default .navbar-nav > li a:focus{
+    color: white;
+    background-color:transparent;
+    border-bottom: 2px solid #e82b22;
+}
+.header-text{
+	color: white;
+	margin-top: 130px;
+}
+/*==========header button=======*/
+.fa-caret-right{
+	text-decoration: none;
+	color:white;
+}
+.arrow{
+	margin-left: 40px;
+	float:right;
+}
+.btn-danger{
+	padding: 14px 28px 10px 58px;
+	background: #e82b22;
+	
+}
+.button{
+	margin-bottom: 180px;
+	margin-top: 50px;
+}
+
+.button-arrow{
+	background: #e82b11;
+}
+/*===============Support header==================*/
+.support{
+	background-color: #f0f1f3;
+	padding-top: 17px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #999999;
+	font-weight: bold;
+	border-radius: 10px 10px 0px 0px;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;
+	width: 230px;
+	
+}
+.center{
+	text-align: center;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+/*====================Logo Banner=====================*/
+.logo-banner{
+	background: #f0f1f3;
+}
+.company-logo{
+	width: 134px;
+	height: 86px;
+	margin-left: 30px;
+}
+.jumbotron{
+	padding-top:37px;
+	padding-bottom:15px;
+}
+/*================Deep Link===================*/
+/**
+ *
+ *
+ *PROBLEMS!!!!!!!
+ *Scroll Bar comes in this div, do not know why!!
+ ***/
+
+.twitter-img{
+	height: 600px;
+	width: 290px;
+	margin-left: 30px;
+	margin-bottom: 40px;
+}
+.vcenter {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+.circ {
+    background-color: #3cbda3;
+    border-radius: 25px;
+    display: table-cell;
+    float: left;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+    margin-top: 12px;
+    
+}
+/**
+ *
+ *PROBLEMS!!!!!1
+ *Line Height is not working do not know why!!
+ *
+ *
+ ***/
+.icon-music,.icon-cog, .icon-location-arrow, .icon-flag, .icon-time, .icon-mobile-phone{
+	color:white;
+	line-height: 50px;
+	}
+/**
+ *
+ *Tried Google inspected code for line height, still no result
+ *
+ ***/
+[class^="icon-"],[class*=" icon-"]{
+		line-height: 50px;
+	}
+.thumbnail{
+	border: hidden;
+}
+.thumbnail:hover{
+	background: #ebebeb;
+}
+.line{
+	line-height: 60px;
+}
+	
+/*=============================Ads=============================*/
+.ad-text{
+	margin-bottom: 40px;
+	margin-top:40px;
+}
+/*==============deeplink 2===========*/
+.deeplink2{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.flag-img{
+	margin-top: 120px;
+	margin-bottom: 50px;
+}
+.left-margin{
+	margin-left: 84px;
+}
+/**=========Deelink 3=============**/
+.lot-more1{
+	padding-top: 60px;
+}
+.lot-more3{
+	margin-top: 90px;
+}
+.lot-more{
+	margin-top: 30px;
+}
+.button1{
+	margin-bottom: 30px;
+}
+
+/*footer*/
+.footer{
+	background: #22272f;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.light{
+	font-size: 13px;
+	font-weight: 300;
+	color: white;
+}
+.semi-light{
+	font-size: 13px;
+	font-weight: 300;
+	color: #333;}
+.semi-light a{
+	text-decoration: none;
+	
+}
